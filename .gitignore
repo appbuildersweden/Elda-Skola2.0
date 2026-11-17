@@ -16,3 +16,6 @@ dist/
 # logs
 *.log
 .claude/skills/
+*.tsbuildinfo
+.data/
+release/

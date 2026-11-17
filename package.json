@@ -1,12 +1,16 @@
 {
-  "name": "elda-skola",
+  "name": "elda-skola-2.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "electron": "electron .",
+    "electron:dev": "node scripts/electron-dev.mjs",
+    "electron:build": "next build && electron-builder --win",
+    "electron:dir": "next build && electron-builder --win --dir"
   },
   "dependencies": {
     "@supabase/server": "^1.9.2",
@@ -19,7 +23,39 @@
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "electron": "^45.3.3",
+    "electron-builder": "^26.18.0",
     "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2"
+  },
+  "productName": "Elda Skola 2.0",
+  "description": "Elda Skola 2.0 – lärplattform för lärare och elever",
+  "main": "electron/main.js",
+  "build": {
+    "appId": "se.eldaskola.app",
+    "productName": "Elda Skola 2.0",
+    "directories": {
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      ".next/**/*",
+      "public/**/*",
+      "electron/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "asar": false,
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "resources/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "Elda Skola 2.0"
+    }
   }
 }

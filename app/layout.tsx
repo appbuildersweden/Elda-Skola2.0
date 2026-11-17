@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import Sidebar from "@/components/sidebar";
+import ErrorReporter from "@/components/error-reporter";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Elda-Skola",
+  title: "Elda Skola 2.0",
   description: "Lärplattform för lärare och elever.",
 };
 
@@ -19,15 +19,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="font-sans">
-        <div className="flex min-h-screen flex-col bg-white lg:flex-row">
-          <Sidebar />
-          <main className="min-w-0 flex-1">{children}</main>
-        </div>
+      <body className="font-sans antialiased">
+        {children}
+        <ErrorReporter />
       </body>
     </html>
   );

@@ -112,6 +112,86 @@ export function ArrowIcon(props: IconProps) {
   );
 }
 
+export function AwardIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="9" r="5.5" />
+      <path d="M8.2 13.6L7 21l5-2.6 5 2.6-1.2-7.4" />
+    </svg>
+  );
+}
+
+export function ClockIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M12 7.5V12l3 1.8" />
+    </svg>
+  );
+}
+
+export function PlusIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 5v14M5 12h14" />
+    </svg>
+  );
+}
+
+export function TargetIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="8.5" />
+      <circle cx="12" cy="12" r="4.5" />
+      <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function ChatIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M20 12a7.5 7.5 0 0 1-7.5 7.5H8L4 22v-4.6A7.5 7.5 0 0 1 4.5 12a7.5 7.5 0 0 1 7.5-7.5h.5A7.5 7.5 0 0 1 20 12Z" />
+      <path d="M9 11h6M9 14.5h4" />
+    </svg>
+  );
+}
+
+export function CapIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M2.5 8.5 12 4l9.5 4.5L12 13z" />
+      <path d="M6 10.8V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-5.2" />
+      <path d="M21.5 8.5V15" />
+    </svg>
+  );
+}
+
+export function StudioIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H11v16H6.5A2.5 2.5 0 0 0 4 22.5z" />
+      <path d="M20 6.5A2.5 2.5 0 0 0 17.5 4H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5z" />
+    </svg>
+  );
+}
+
+export function PaperclipIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M18.5 11.5l-6.6 6.6a4.2 4.2 0 0 1-6-6l7-7a2.9 2.9 0 0 1 4.1 4.1l-7 7a1.6 1.6 0 0 1-2.3-2.3l6.2-6.2" />
+    </svg>
+  );
+}
+
+export function CloseIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M6 6l12 12M18 6L6 18" />
+    </svg>
+  );
+}
+
 export function ChevronIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>
