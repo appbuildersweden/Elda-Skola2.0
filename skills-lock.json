@@ -1,0 +1,253 @@
+{
+  "version": 2,
+  "skills": {
+    "animate": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/animate/SKILL.md",
+      "computedHash": "c622e29fa956aea703dc4e2b8726d9a017d438beb284a60bc3fdb2540c602102",
+      "installMode": "copy"
+    },
+    "animation-performance": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/animation-performance/SKILL.md",
+      "computedHash": "1ff92f577fc2b7781ed622fd4eb5e514c252cf5cb95c3661743cd127ee01290a",
+      "installMode": "copy"
+    },
+    "apple-design": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "computedHash": "163ba8b42c7d9d5ccb08674266d4727c9ec610b9d876c906b1f29ce5e0d933da",
+      "installMode": "copy"
+    },
+    "better-accessibility": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-accessibility/SKILL.md",
+      "computedHash": "e610b7be067fb62bc09094ebabcaaef429dde4398900b340e29f00a0217a5731",
+      "installMode": "copy"
+    },
+    "better-colors": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-colors/SKILL.md",
+      "computedHash": "d114ace9df09574564a14316882d80501b48bea636017dc7e4c0ad53053d6319",
+      "installMode": "copy"
+    },
+    "better-interface": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-interface/SKILL.md",
+      "computedHash": "37ae068dc11f7548c3064848cb6d97f4e4626e689ad374c192ddc05d11641c04",
+      "installMode": "copy"
+    },
+    "better-layout": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-layout/SKILL.md",
+      "computedHash": "c00f4b9a36a561d2b5f63ce318467f6e522294bdd217684d3c12c7ec7ce86ea1",
+      "installMode": "copy"
+    },
+    "better-typography": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-typography/SKILL.md",
+      "computedHash": "85b6c26d65e0bcf11fb97f03ec91c057d5adc5d87bdffdee2eb14e0fac59c0a8",
+      "installMode": "copy"
+    },
+    "better-ui": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-ui/SKILL.md",
+      "computedHash": "abfdcb9c08248aa0f1ed413ff5390574fa799b6dcb9237fe7e7ce965598a0753",
+      "installMode": "copy"
+    },
+    "better-writing": {
+      "source": "jakubkrehel/skills",
+      "commit": "6c2120103600407a1a9986afd834e73144ef8998",
+      "sourceType": "github",
+      "skillPath": "skills/better-writing/SKILL.md",
+      "computedHash": "1a0f637280dfd4d2a3245ab6a0dad4b48b22a4a2ced64915eb51876012cf46f0",
+      "installMode": "copy"
+    },
+    "brand-guidelines": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/brand-guidelines/SKILL.md",
+      "computedHash": "10067cdd9be9cd5d97c741fc6e25830135afa0e11cc71e567b75763e26d08799",
+      "installMode": "copy"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "computedHash": "1866477474e694f562261008bb6a817e53f027b6347b062fbd1e2ee2eb83f20d",
+      "installMode": "copy"
+    },
+    "choreograph": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/choreograph/SKILL.md",
+      "computedHash": "a33a7cf57eacff502f833778eed62244fb5a890bb25124dacde73bcf8716218c",
+      "installMode": "copy"
+    },
+    "critique-design": {
+      "source": "caocong1/design-skill-lab",
+      "commit": "7f208083bc2b227fbb229f82f365f76959f4904e",
+      "sourceType": "github",
+      "skillPath": "skills/critique-design/SKILL.md",
+      "computedHash": "982fe1dd3cb2092819327269753ee4506d5e54f8fb5bbc7d04315bf1b8669316",
+      "installMode": "copy"
+    },
+    "design-studio": {
+      "source": "caocong1/design-skill-lab",
+      "commit": "7f208083bc2b227fbb229f82f365f76959f4904e",
+      "sourceType": "github",
+      "skillPath": "skills/design-studio/SKILL.md",
+      "computedHash": "b0ddf3458fb926215f91ee094900a8ae968ae559dc9fcd07aa2996bf0cb74e7e",
+      "installMode": "copy"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "83485963700bcf11d5bf78118facb301676b69d918fee2e45a95e7f1a2840f6c",
+      "installMode": "copy"
+    },
+    "gestures": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/gestures/SKILL.md",
+      "computedHash": "f17aa90d244bed37d09a608f9b8f58cd7a8dd6b9ff1a06fe2217f6f242c624f7",
+      "installMode": "copy"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "commit": "d41d9860b0094dcb68030657da63461212835aaa",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "077889e9782761360c17acbc2522af320d0dd0f928b09cd90884fa304f443a34",
+      "installMode": "copy"
+    },
+    "implement-design": {
+      "source": "caocong1/design-skill-lab",
+      "commit": "7f208083bc2b227fbb229f82f365f76959f4904e",
+      "sourceType": "github",
+      "skillPath": "skills/implement-design/SKILL.md",
+      "computedHash": "59bd627de767cb39c8443eaca7fe00b853402b4d26046d44f48b609eb63782d0",
+      "installMode": "copy"
+    },
+    "improve-animations": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "computedHash": "5c33add82a79754bec0d7ee3376525e24e77b34575d5ae29d0c204f730356eab",
+      "installMode": "copy"
+    },
+    "pick-ui-library": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/pick-ui-library/SKILL.md",
+      "computedHash": "3bc44e7faccb949583f4af6c8a15b5a50acc04a5e656f5168a96e5aa43e9f3cd",
+      "installMode": "copy"
+    },
+    "review-animations": {
+      "source": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "sourceType": "github",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "computedHash": "50f1de2394b88bb3433eca1e30da6866a4e310963d872a66af20ca77fd77f07d",
+      "installMode": "copy"
+    },
+    "supabase-server": {
+      "source": "supabase/server",
+      "commit": "b0fcc4c266391a9549c4f1dbf16dfd336316c87b",
+      "sourceType": "github",
+      "skillPath": "skills/supabase-server/SKILL.md",
+      "computedHash": "9a560aef83b25cbd6aa1c4f77dcdad7c771014d7ba30f64811b81516477ead12",
+      "installMode": "copy"
+    },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+      "computedHash": "c807f0c9619e8c389879f55846c2e395956f1073ab6d01a93fbb30b340015ab1",
+      "installMode": "copy"
+    },
+    "theme-factory": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/theme-factory/SKILL.md",
+      "computedHash": "f426a07c06316201360be19324f2689c5bd3ab2d1669848c9383c321efa4386f",
+      "installMode": "copy"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "f711ed8b16162eaa712abbcdbbae6c926f86c57e60127735fecc3ad0dd85b3fa",
+      "installMode": "copy"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299",
+      "installMode": "copy"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "sourceType": "github",
+      "skillPath": "skills/react-view-transitions/SKILL.md",
+      "computedHash": "d5bdffc1f132ae0d6d9260c260ae206d48cd83cb148e3e3b75fc1a3b94b249fa",
+      "installMode": "copy"
+    },
+    "web-artifacts-builder": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/web-artifacts-builder/SKILL.md",
+      "computedHash": "7a081b86fd5068d3ca2c4d9c059956634feff65ccbf1c39c3d34a6e5d0971139",
+      "installMode": "copy"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "4f68ae07187fb0d1fb78c88b503d089da4cf5a9d9625d1f2e425b1590bf96d92",
+      "installMode": "copy"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "computedHash": "48cd9a742a59250edec6db89cf081ef5465f365e2133f6d6c5e29c380b754b7d",
+      "installMode": "copy"
+    }
+  }
+}
